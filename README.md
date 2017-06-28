@@ -19,14 +19,14 @@ Updating to ThingSpeak
 
 ### On the loop
 
-If RTC interrupt fired
+- If RTC interrupt fired
  claer flag
  wdt reset
 
-If RTC interrupt fired
+- If RTC interrupt fired
   clear flag
   RTC interrupt update
   take readings every 30 minutes
 
-Put system to sleep
+- Put system to sleep
 
