@@ -153,8 +153,11 @@ void loop()
   if (sodaq_wdt_flag) {
     sodaq_wdt_flag = false;
     sodaq_wdt_reset();
-    
-    Serial.print("WDT interrupt has been triggered");
+    int_seq++;
+    Serial.print("WDT interrupt has been triggered ");
+    Serial.println(int_seq);
+    if (int_seq>8) rtc_flag=true;
+    if (int_seq>10) while(1);
     
   } 
   if (rtc_flag) {
@@ -263,6 +266,9 @@ void systemSleep()
   // Wait till the output has been transmitted
   Serial.flush();
   Serial1.flush();
+  
+  //The next timed interrupt will not be sent until this is cleared
+  rtc.clearINTStatus();
 
   //ADCSRA &= ~_BV(ADEN);         // ADC disabled
   disableper();
