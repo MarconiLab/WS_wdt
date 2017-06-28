@@ -23,11 +23,9 @@ Updating to ThingSpeak every half an hour with a synchro to be every hh:00 and h
 - If RTC interrupt fired
  claer flag
  wdt reset
-
 - If RTC interrupt fired
   clear flag
   RTC interrupt update
   take readings every 30 minutes
-
 - Put system to sleep
 
