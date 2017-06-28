@@ -5,16 +5,6 @@
 //using GPRSbee board. Use GPRSBee library v.1.3
 //By RJC 
 
-//gmail palembangasia2018:asian2018
-//TS palembangasia18:MarcoRodrigoSteve3
-//By RJC 
-
-//Group1 8H63LZ69PBNMO0HB
-//Group2 RG875UT6X8F7SYKS
-//Group3 FPMVUII471SKJSVG
-//Group4 8EWBCZ6OZAU35MZF
-//Group5 7RFFX2PGGCRQL7H3
-
 //libraries
 #include <Wire.h>
 #include <avr/sleep.h>
