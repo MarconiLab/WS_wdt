@@ -8,7 +8,7 @@ https://www.sparkfun.com/datasheets/Sensors/Weather/Weather%20Sensor%20Assembly.
 Boards
 Using Mbili and GPRSbee board. 
 
-Updating to ThingSpeak
+Updating to ThingSpeak every half an hour with a synchro to be every hh:00 and hh:30 minutes
 
 ### On the Setup
 - Setup sensors
