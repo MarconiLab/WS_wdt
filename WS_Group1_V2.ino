@@ -1,9 +1,8 @@
 //Weather station. TPH, rain, wind speed and direction.
 //Anemometer, rain gauge and Wind Vane datasheet
 //https://www.sparkfun.com/datasheets/Sensors/Weather/Weather%20Sensor%20Assembly..pdf
-//Updating to ThingSpeak, Ubidots and Weather Underground
-//using GPRSbee board. Use GPRSBee library v.1.3
-//By RJC 
+//Updating to ThingSpeak
+//using GPRSbee board. By RJC 
 
 //libraries
 #include <Wire.h>
