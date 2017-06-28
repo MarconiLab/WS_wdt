@@ -27,7 +27,7 @@
 //SpeakThings constants
 #define URL "api.thingspeak.com/update"
 #define URL "184.106.153.149/update"
-#define WRITE_API_KEY "8H63LZ69PBNMO0HB"
+#define WRITE_API_KEY "XXXXXXXXXXXXXXXX"
 //#define HOST_PORT   (80)
 
 //update RTC
